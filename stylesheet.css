@@ -1,0 +1,71 @@
+html, body {
+  height: 100%;
+  margin: 0px;
+}
+
+header {
+  background-image: url("images/desktop_wallpaper_by_maria_shanina.png");
+  background-color: #BE687D;
+  height: 100vh;
+  background-size: cover;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+}
+
+h1, h3 {
+  color: #fff;
+  margin: 2px;
+}
+
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin: auto;
+}
+
+/* Begin Typing Animation
+================================================*/
+.typewriter {
+  overflow: hidden; /* keeps content hidden before animation finishes*/
+  border-right: .15em solid white; /* space for cursor */
+  white-space: nowrap;
+  margin: 0 auto; /* spans entire length of content being typed */
+  letter-spacing: 0em;
+  animation:
+    typing 2.5s steps(20, end), /* more steps = smoother typing */
+    blink-caret .75s step-end infinite;
+}
+
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 12em }
+}
+
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: white; }
+}
+
+/* Begin Body Content
+================================================*/
+
+p {
+  max-width: 80%;
+  margin: 0 auto 20px;
+}
