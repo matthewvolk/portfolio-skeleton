@@ -2,36 +2,11 @@ html, body {
   height: 100%;
   margin: 0px;
 }
-.navbar-toggle {
-   position: relative;
-   float: right;
-   padding: 9px 10px;
-   margin-top: 8px;
-   margin-right: 15px;
-   margin-bottom: 8px;
-   background-color: #cccccc;
-   border: 1px solid transparent;
-   border-radius: 4px;
-}
-
-.navbar-toggle .icon-bar {
-   display: block;
-   width: 22px;
-   height: 2px;
-   background-color:#000000;
-   border-radius: 1px;
-}
-
-.navbar-toggle .icon-bar+.icon-bar {
-   margin-top: 4px;
-}
-
 .bg-1 {
-  background-image: url("images/hero-menu-background_0.jpg");
+  background-image: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4) ), url("images/mountain-bg.jpg");
   background-color: #BE687D;
   height: 100vh;
   background-size: cover;
-  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -63,7 +38,6 @@ h1 {
 h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
-  margin: auto;
 }
 /* Begin Typing Animation
 ================================================*/
@@ -74,7 +48,7 @@ h3 {
   margin: 0 auto; /* spans entire length of content being typed */
   letter-spacing: 0em;
   animation:
-    typing 2.5s steps(20, end), /* more steps = smoother typing */
+    typing 2s steps(20, end), /* more steps = smoother typing */
     blink-caret .75s step-end infinite;
 }
 @keyframes typing {
@@ -87,8 +61,3 @@ h3 {
 }
 /* Begin Body Content
 ================================================*/
-p {
-  max-width: 80%;
-  margin: 0 auto 20px;
-  color: white;
-}
